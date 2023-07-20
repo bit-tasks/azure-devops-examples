@@ -1,0 +1,13 @@
+trigger:
+- master
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  BIT_CONFIG_USER_TOKEN: '<BIT CONFIG USER TOKEN>'
+
+steps:
+- task: bit-init@0
+- task: bit-tag-export@0
+- task: bit-commit-bitmap@0

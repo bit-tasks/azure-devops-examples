@@ -1,0 +1,14 @@
+trigger:
+- master
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  BIT_CONFIG_USER_TOKEN: '<BIT CONFIG USER TOKEN>'
+  GITHUB_TOKEN: 'GITHUB TOKEN'
+
+steps:
+- task: bit-init@0
+- task: bit-branch-lane@0
+- task: bit-commit-bitmap@0
