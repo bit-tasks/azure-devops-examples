@@ -3,7 +3,7 @@ Example Azure DevOps for common Bit and Git CI/CD workflows.
 
 ## Setup Guide
 
-1. You must set `BIT_CONFIG_USER_TOKEN` environment variable for the pipeline before running these tasks. You also need `GITHUB_TOKEN` environment variable for `bit-tasks/commit-bitmap@v1` task.
+1. You must set `BIT_CONFIG_USER_TOKEN` environment variable for the pipeline before running these tasks. You also need `GITHUB_TOKEN` environment variable (e.g if you use GitHub for source control) for `bit-tasks/commit-bitmap@v1` task.
 3. If your workspace is not at the root of the Git repository, specify the input parameter `ws-dir` in the task `bit-init@0`.
 
 ### Automating Component Release
