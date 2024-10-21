@@ -8,31 +8,31 @@ Example Azure DevOps configurations for common Bit and Git CI/CD workflows.
 
 ## Automating Component Release
 
-| Task                        | Example                         | Repo and Docs                                   |
-|-----------------------------|---------------------------------|-------------------------------------------------|
-| Initialize Bit              | [bit-init.yml](/azure-devops/bit-init.yml)            | [link](https://github.com/bit-tasks/init)        |
-| Bit Verify Components       | [verify.yml](/azure-devops/verify.yml)                | [link](https://github.com/bit-tasks/verify)      |
-| Bit Tag and Export          | [tag-export.yml](/azure-devops/tag-export.yml)        | [link](https://github.com/bit-tasks/tag-export)  |
-| Bit Pull Request Build      | [pull-request.yml](/azure-devops/pull-request.yml)    | [link](https://github.com/bit-tasks/pull-request)|
-| Bit Lane Cleanup            | [lane-cleanup.yml](/azure-devops/lane-cleanup.yml)    | [link](https://github.com/bit-tasks/lane-cleanup)|
-| Commit Bitmap               | [commit-bitmap.yml](/azure-devops/commit-bitmap.yml)  | [link](https://github.com/bit-tasks/commit-bitmap)|
+| Task                        | Example                                                                                                  | Repo and Docs                                   |
+|-----------------------------|----------------------------------------------------------------------------------------------------------|-------------------------------------------------|
+| Initialize Bit              | [bit-init.yml](https://github.com/bit-tasks/azure-devops-examples/blob/main/azure-devops/bit-init.yml)   | [link](https://github.com/bit-tasks/azure-devops-tasks)        |
+| Bit Verify Components       | [verify.yml](https://github.com/bit-tasks/azure-devops-examples/blob/main/azure-devops/verify.yml)       | [link](https://github.com/bit-tasks/azure-devops-tasks)      |
+| Bit Tag and Export          | [tag-export.yml](https://github.com/bit-tasks/azure-devops-examples/blob/main/azure-devops/tag-export.yml)| [link](https://github.com/bit-tasks/azure-devops-tasks)  |
+| Bit Pull Request Build      | [pull-request.yml](https://github.com/bit-tasks/azure-devops-examples/blob/main/azure-devops/pull-request.yml)| [link](https://github.com/bit-tasks/azure-devops-tasks)|
+| Bit Lane Cleanup            | [lane-cleanup.yml](https://github.com/bit-tasks/azure-devops-examples/blob/main/azure-devops/lane-cleanup.yml)| [link](https://github.com/bit-tasks/azure-devops-tasks)|
+| Commit Bitmap               | [commit-bitmap.yml](https://github.com/bit-tasks/azure-devops-examples/blob/main/azure-devops/commit-bitmap.yml)| [link](https://github.com/bit-tasks/azure-devops-tasks)|
 
   :arrow_down: [Download Files](https://github.com/bit-tasks/azure-devops-examples/raw/main/downloads/automating-component-releases.zip)
 
 ## Update Workspace Components, External Dependencies and Envs
 
-| Task                        | Example                         | Repo and Docs                                   |
-|-----------------------------|---------------------------------|-------------------------------------------------|
-| Dependency Update           | [dependency-update.yml](/azure-devops/dependency-update.yml) | [link](https://github.com/bit-tasks/dependency-update)|
+| Task                        | Example                                                                                                  | Repo and Docs                                   |
+|-----------------------------|----------------------------------------------------------------------------------------------------------|-------------------------------------------------|
+| Dependency Update           | [dependency-update.yml](https://github.com/bit-tasks/azure-devops-examples/blob/main/azure-devops/dependency-update.yml) | [link](https://github.com/bit-tasks/azure-devops-tasks)|
 
   :arrow_down: [Download Files](https://github.com/bit-tasks/azure-devops-examples/raw/main/downloads/dependency-update.zip)
 
 ## Sync Git Branches with Bit Lanes
 
-| Task                        | Example                         | Repo and Docs                                   |
-|-----------------------------|---------------------------------|-------------------------------------------------|
-| Branch Lane                 | [branch-lane.yml](/azure-devops/branch-lane.yml)       | [link](https://github.com/bit-tasks/branch-lane)|
-| Lane Branch                 | [lane-branch.yml](/azure-devops/lane-branch.yml)       | [link](https://github.com/bit-tasks/lane-branch)|
+| Task                        | Example                                                                                                  | Repo and Docs                                   |
+|-----------------------------|----------------------------------------------------------------------------------------------------------|-------------------------------------------------|
+| Branch Lane                 | [branch-lane.yml](https://github.com/bit-tasks/azure-devops-examples/blob/main/azure-devops/branch-lane.yml) | [link](https://github.com/bit-tasks/azure-devops-tasks)|
+| Lane Branch                 | [lane-branch.yml](https://github.com/bit-tasks/azure-devops-examples/blob/main/azure-devops/lane-branch.yml) | [link](https://github.com/bit-tasks/azure-devops-tasks)|
 
   :arrow_down: [Download Files](https://github.com/bit-tasks/azure-devops-examples/raw/main/downloads/branch-lane.zip)
 
