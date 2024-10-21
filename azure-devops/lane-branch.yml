@@ -10,5 +10,4 @@ variables:
 
 steps:
 - task: bit-init@0
-- task: bit-branch-lane@0
-- task: bit-commit-bitmap@0
+- task: bit-lane-branch@0
